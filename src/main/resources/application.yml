@@ -2,9 +2,9 @@ spring:
   application:
     name: books
   datasource:
-    url: jdbc:postgresql://${POSTGRES_SERVER}/books
+    url: jdbc:postgresql://localhost:5432/books
     username: postgres
-    password: ${POSTGRES_PASSWORD}
+    password: postgres123
   jpa:
     hibernate:
       ddl-auto: validate
